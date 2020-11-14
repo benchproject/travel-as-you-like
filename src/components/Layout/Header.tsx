@@ -1,6 +1,6 @@
 import React from 'react';
 // import cn from 'classnames'
-import logoWhite from '../../../img/logo-white.png'
+import logoWhite from '../../img/logo-white.png'
 // import styles from './Header.module.scss'
 
 function Header() {
