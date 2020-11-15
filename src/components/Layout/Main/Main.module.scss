@@ -3,7 +3,7 @@
 
 .sectionAbout {
     background-color: $color-grey-light-1;
-    padding: 25rem 0;
+    padding: 27rem 0;
     margin-top: -20vh;
 }
 
@@ -22,12 +22,6 @@
          transform: skewY(2deg) skewX((15deg));
          text-shadow: .5rem 1rem 2rem rgba($color-black,.2);
      }
-}
-
-.headingTertiary {
-    font-size: $default-font-size;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
 .paragraph {

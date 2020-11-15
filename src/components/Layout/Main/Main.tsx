@@ -1,6 +1,7 @@
 import React from 'react'
-
 import cn from 'classnames'
+
+import Features from '../../base/Features'
 import styles from './Main.module.scss'
 
 import nat1 from '../../../img/nat-1-large.jpg'
@@ -19,12 +20,12 @@ function Main() {
 
                 <div className="row">
                     <div className="col-1-of-2">
-                        <h3 className={cn(styles.headingTertiary,"u-margin-bottom-small")}>You're going to fall in love with nature</h3>
+                        <h3 className="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
                         <p className={styles.paragraph}>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nihil porro non necessitatibus? Saepe culpa, quos reiciendis eos, eligendi id fuga
                         </p>
 
-                        <h3 className={cn(styles.headingTertiary,"u-margin-bottom-small")}>Live adventure like you never have before</h3>
+                        <h3 className="heading-tertiary u-margin-bottom-small">Live adventure like you never have before</h3>
                         <p className={styles.paragraph}>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum modi tenetur laborum amet adipisci. Cum nesciunt delectus ab vitae eius ut quam ad non
                         </p>
@@ -41,6 +42,7 @@ function Main() {
                     </div>
                 </div>
             </section>
+            <Features/>
         </main>
     )
 }
