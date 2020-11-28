@@ -17,7 +17,7 @@ function Header() {
             <span className={styles.headingPrimarySub}>is where life happens</span>
         </h1>
 
-        <a href="#" className={cn(styles.btn, styles.btnWhite, styles.btnAnimated)}>Discover our tours</a>
+        <a href="#section-tours" className={cn("btn", "btn--white", styles.btnAnimated)}>Discover our tours</a>
       </div>
     </header>
   );

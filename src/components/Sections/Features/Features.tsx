@@ -5,7 +5,7 @@ import styles from './Features.module.scss'
 
 function Features () {
     return (
-        <section className={styles.features}>          
+        <section className={styles.sectionFeatures}>          
             <div className="row">
                 <div className="col-1-of-4">
                     <div className={styles.featureBox}>
