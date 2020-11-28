@@ -1,6 +1,8 @@
 @import '../../../../public/sass/abstract/variables';
+@import '../../../../public/sass/abstract/mixins';
 
-.features {
+
+.sectionFeatures {
     padding: 20rem 0;
     background-image: linear-gradient(
         to right bottom,
@@ -9,10 +11,14 @@
     url(../../../img/nat-4.jpg);
     background-size: cover ;
     transform: skewY(-7deg);
-    margin-top: -12rem;
+    margin-top: -15rem;
      
     & > * {
         transform: skewY(7deg);
+    }
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
     }
 }
 
@@ -25,13 +31,22 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
     transition: transform .3s;
 
+    @include respond(tab-port) {
+        padding: 2rem;
+    }
+
     &Icon {
         font-size: 6rem;
         margin-bottom: .5rem;
         display: inline-block;
         background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
         -webkit-background-clip: text;
+        background-clip: text;
         color: transparent;
+
+        @include respond(tab-port) {
+            margin: 0;
+        }
     }
 
     &:hover {
